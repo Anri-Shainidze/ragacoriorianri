@@ -1,3 +1,10 @@
+body {
+    min-width: 375px;
+    font-size: 18px;
+    font-family: var(--barlow);
+    font-weight: 600;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -28,14 +35,7 @@ ul {
     list-style: none;
 }
 
-body {
-    min-width: 375px;
-    font-size: 18px;
-    font-family: var(--barlow);
-    font-weight: 600;
-}
 
-/* Top */
 .top {
     min-height: 538px;
     background-image: url(../images/mobile/image-header.jpg);
@@ -331,16 +331,7 @@ body {
     color: var(--dark-moderate-cyan);
 }
 
-.nav-brands {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    font-size: 20px;
-}
 
-.brand-container {
-    color: hsl(168, 45%, 31%);
-}
 
 
 @media (min-width: 720px) {
@@ -548,13 +539,8 @@ body {
     font-size: 18px;
 }
 
-.nav-brands {
-    font-size: 22px;
-}
 
-.brand-container {
-    color: hsl(168, 45%, 31%);
-}
+
 
 .contact:hover {
     background-color: hsl(200, 100%, 72%);
